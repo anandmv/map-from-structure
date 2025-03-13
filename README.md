@@ -4,12 +4,14 @@ Map JSON data from a given structure
 
 
 ## Install 
-npm i map-from-structure
+```npm i map-from-structure```
 
 ## Usage
+Import the library
 ```
 import { mapJsonData } from "map-from-structure"
-
+```
+```
 const inputData: InputData = {
   "user_id": 123,
   "first_name": "John",
@@ -52,7 +54,9 @@ const structure = {
   },
   "location": locationMapper
 };
-
+```
+Call mapJsonData function with input and structure to be mapped
+```
 mapJsonData(inputData, structure)
 console.log(mapJsonData)
 
