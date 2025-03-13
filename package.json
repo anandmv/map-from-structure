@@ -1,11 +1,11 @@
 {
   "name": "map-from-structure",
   "version": "1.0.0",
-  "description": "Map JSON data from a given structure",
+  "description": "Map JSON data from a given data structure",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/map-from-structure",
+  "repository": "https://github.com/anandmv/map-from-structure",
   "license": "MIT",
   "keywords": [],
   "scripts": {
